@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* border: 1px solid red; */
+}
+
+.span-1 {color: hsl(215, 51%, 70%);}
+.span-2 {color: hsl(178, 100%, 50%);}
+
+.ftw-400 {
+    font-weight: 400;
+}
+
+/* ********************** */
+
+#Challenge2_NFT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 300;
+
+    /* border: 1px solid green; */
+}
+
+.card .content-1 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /* border: 1px solid pink; */
+}
+
+.card .content-1 .equi-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .content-1 .overlay {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(178, 100%, 50%, 0.4);
+    opacity: 0;
+}
+
+.card .content-1 .overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content-2 > div {
+    margin: 20px 0px;
+}
+
+.content-2 .info-1 p{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.content-2 .info-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-2 .info-3 .gauche,
+.content-2 .info-3 .droite {
+    display: flex;
+    justify-content: center;
+}
+
+.content-2 .info-3 img {
+    display: block;
+    margin-right: 10px;
+}
+
+.content-2 .info-4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.content-2 .info-4 img {
+    width: 15%;
+    display: block;
+    margin-right: 20px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.hover:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
